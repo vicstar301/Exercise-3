@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+  <head>
+    <title>Exercise 3: Tables and Forms</title>
+    <meta charset="utf-8">
+  </head>
+<h1>
+Top YouTube Channels
+</h1>
+
+<table style="width:100%">
+  <caption>
+  Data: <a href="https://en.wikipedia.org/wiki/List_of_most-subscribed_YouTube_channels#50_most-subscribed_channels">Wikipedia</a>
+  </caption>
+  <tr>
+	<th>Rank</th>	
+  <th>Name</th>	
+  <th>Brand<br>channel</th>	
+  <th>Subscribers<br>(millions)</th>
+  <th>Primary <br>language</th>
+  <th>Category</th>
+  <th>Country</th>
+	</tr>
+  <tr>
+    <td>1</td>
+    <td>T-Series</td>
+    <td>Yes</td>
+    <td>249</td>
+    <td>Hindi</td>
+    <td>Music</td>
+    <td>India</td>
+  </tr>
+<tr>
+  <td>2</td>
+  <td>MrBeast</td>
+  <td>No</td>
+  <td>184</td>
+  <td>English</td>
+  <td>Entertainment</td>
+  <td>United States</td>
+  </tr>
+<tr>
+  <td>3</td>
+  <td>Cocomelon</td>
+  <td>Yes</td>
+  <td>165</td>
+  <td>English</td>
+  <td>Education</td>
+  <td>United States</td>
+  </tr>
+<tr>
+  <td>4</td>
+   <td>Sony Entertainment Television<br>India</td>
+  <td>Yes</td>
+  <td>162</td>
+  <td>Hindi</td>
+  <td>Entertainment</td>
+   <td>India</td>
+  </tr>
+<tr>
+  <td>5</td>
+  <td>Kids Diana Show</td>
+  <td>Yes</td>
+  <td>113</td>
+  <td>English</td>
+  <td>Entertainment</td>
+  <td>Ukraine-United States</td>
+  </tr>
+<tr>
+  <td>6</td>
+  <td>PewDiePie</td>
+  <td>No</td>
+  <td>111</td>
+  <td>English</td>
+  <td>Entertainment</td>
+  <td>Sweden</td>
+  </tr>
+<tr>
+  <td>7</td>
+  <td>Like Nastya</td>
+  <td>No</td>
+  <td>107</td>
+  <td>English</td>
+  <td>Entertainment</td>
+  <td>Russia-United States</td>
+  </tr>
+<tr>
+  <td>8</td>
+  <td>Vlad and Niki</td>
+  <td>No</td>
+  <td>101</td>
+  <td>English</td>
+  <td>Entertainment</td>
+  <td>Russia-United States</td>
+  </tr>
+<tr>
+  <td>9</td>
+  <td>Zee Music Company</td>
+  <td>Yes</td>
+  <td>99.5</td>
+  <td>Hindi</td>
+  <td>Music</td>
+  <td>India</td>
+  </tr>
+<tr>
+  <td>10</td>
+  <td>WWE</td>
+  <td>Yes</td>
+  <td>97.1</td>
+  <td>English</td>
+  <td>Sports</td>
+  <td>United States</td>
+  </tr>
+  </table>
+
+<p>Which of these YouTube channels have you watched before?</p>
+
+<style>
+  form{ 
+    border: 2px solid black; height: 245px;
+  }
+</style>
+  
+<form>
+<input type="radio" id="t-series" name="watched_before" value="T-Series">
+<label for="t-series">T-Series</label><br>  
+<input type="radio" id="mrbeast" name="watched_before" value="MrBeast">
+<label for="mrbeast">MrBeast</label><br>
+<input type="radio" id="cocomelon" name="watched_before" value="Cocomelon">
+<label for="cocomelon">Cocomelon</label><br>  
+<input type="radio" id="sony-entertainment-television-india" name="watched_before" value="Sony Entertainment Television India">
+<label for="sony-entertainment-television-india">Sony Entertainment Television India</label><br>
+<input type="radio" id="kids-diana-show" name="watched_before" value="Kids Diana Show">
+<label for="kids-diana-show">Kids Diana Show</label><br>  
+<input type="radio" id="pewdiepie" name="watched_before" value="PewDiePie">
+<label for="pewdiepie">PewDiePie</label><br>
+<input type="radio" id="like-nastya" name="watched_before" value="Like Nastya">
+<label for="like-nastya">Like Nastya</label><br>
+<input type="radio" id="vlad-and-niki" name="watched_before" value="Vlad and Niki">
+<label for="vlad-and-niki">Vlad and Niki</label><br> 
+<input type="radio" id="zee-music-company" name="watched_before" value="Zee Music Company">
+<label for="zee-music-company">Zee Music Company</label><br>
+  <input type="radio" id="wwe" name="watched_before" value="WWE">
+<label for="wwe">WWE</label><br><br>
+<input type="submit" value="Submit">
+</form>
+  
+</html>
